@@ -11,14 +11,18 @@ module.exports = {
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
+      { test: /\.(gif|svg|jpg|png)$/, loader: 'file-loader' },
     ],
   },
 
-  plugins: process.argv.indexOf('-p') === -1 ? [] : [
-    new webpack.optimize.UglifyJsPlugin({
-      output: {
-        comments: false,
-      },
-    }),
-  ],
+  plugins:
+    process.argv.indexOf('-p') === -1
+      ? []
+      : [
+        new webpack.optimize.UglifyJsPlugin({
+          output: {
+            comments: false,
+          },
+        }),
+      ],
 };
