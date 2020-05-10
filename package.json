@@ -1,6 +1,6 @@
 {
   "homepage": "https://benwalk.github.io/welcome-to-player-sheet",
-  "name": "my-app",
+  "name": "welcome-to-player-sheet",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
