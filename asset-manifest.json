@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/welcome-to-player-sheet/static/css/main.5f361e03.chunk.css",
-    "main.js": "/welcome-to-player-sheet/static/js/main.b695651e.chunk.js",
-    "main.js.map": "/welcome-to-player-sheet/static/js/main.b695651e.chunk.js.map",
-    "runtime-main.js": "/welcome-to-player-sheet/static/js/runtime-main.2f7376de.js",
-    "runtime-main.js.map": "/welcome-to-player-sheet/static/js/runtime-main.2f7376de.js.map",
-    "static/js/2.a4896da7.chunk.js": "/welcome-to-player-sheet/static/js/2.a4896da7.chunk.js",
-    "static/js/2.a4896da7.chunk.js.map": "/welcome-to-player-sheet/static/js/2.a4896da7.chunk.js.map",
+    "main.css": "/welcome-to-player-sheet/static/css/main.ac09cb15.chunk.css",
+    "main.js": "/welcome-to-player-sheet/static/js/main.3066da9e.chunk.js",
+    "main.js.map": "/welcome-to-player-sheet/static/js/main.3066da9e.chunk.js.map",
+    "runtime-main.js": "/welcome-to-player-sheet/static/js/runtime-main.211d4765.js",
+    "runtime-main.js.map": "/welcome-to-player-sheet/static/js/runtime-main.211d4765.js.map",
+    "static/js/2.af6fd518.chunk.js": "/welcome-to-player-sheet/static/js/2.af6fd518.chunk.js",
+    "static/js/2.af6fd518.chunk.js.map": "/welcome-to-player-sheet/static/js/2.af6fd518.chunk.js.map",
     "index.html": "/welcome-to-player-sheet/index.html",
-    "precache-manifest.4002097e78c0550cce0b17d5292b10d2.js": "/welcome-to-player-sheet/precache-manifest.4002097e78c0550cce0b17d5292b10d2.js",
+    "precache-manifest.7e978099fbb00012a0ade302f4f29405.js": "/welcome-to-player-sheet/precache-manifest.7e978099fbb00012a0ade302f4f29405.js",
     "service-worker.js": "/welcome-to-player-sheet/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/welcome-to-player-sheet/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.a4896da7.chunk.js.LICENSE.txt": "/welcome-to-player-sheet/static/js/2.a4896da7.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/welcome-to-player-sheet/static/media/logo.5d5d9eef.svg"
+    "static/css/main.ac09cb15.chunk.css.map": "/welcome-to-player-sheet/static/css/main.ac09cb15.chunk.css.map",
+    "static/js/2.af6fd518.chunk.js.LICENSE.txt": "/welcome-to-player-sheet/static/js/2.af6fd518.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f7376de.js",
-    "static/js/2.a4896da7.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.b695651e.chunk.js"
+    "static/js/runtime-main.211d4765.js",
+    "static/js/2.af6fd518.chunk.js",
+    "static/css/main.ac09cb15.chunk.css",
+    "static/js/main.3066da9e.chunk.js"
   ]
 }
