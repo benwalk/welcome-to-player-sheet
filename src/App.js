@@ -1,23 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ImageMapper from "react-image-mapper";
+import logo from "./logo.svg";
+import "./App.css";
+import map from "./map";
+
+const url = "./player-sheet.png";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ImageMapper
+          src={url}
+          map={map}
+          fillColor={"#B4E3DE"}
+          width={1157}
+          height={1157}
+        />
       </header>
     </div>
   );
