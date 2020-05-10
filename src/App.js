@@ -2,16 +2,15 @@ import React from "react";
 import ImageMapper from "react-image-mapper";
 import "./App.css";
 import map from "./map";
-
-const url = "./sheet.png";
+import sheet from "./sheet.png";
 
 function App() {
   return (
     <div className="App">
       <ImageMapper
-        src={url}
+        src={sheet}
         map={map}
-        fillColor={"#B4E3DE"}
+        strokeColor={"#B4E3DE"}
         width={1157}
         height={1157}
       />

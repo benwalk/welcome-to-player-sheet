@@ -1,29 +1,71 @@
 export default {
-  // name of the map, used to bind the image
   name: "player-sheet",
-
-  // Array of area objects
   areas: [
-    // area object
     {
-      // Uniquely identify an area. Index in array is used if this value is not provided.
-      // _id: '', // string
-      // Either rect, circle or poly
-      shape: "rect", // string
-      // Coordinates delimiting the zone according to the specified shape:
-      // - rect: top-left-X,top-left-Y,bottom-right-X,bottom-right-Y
-      // - circle: center-X,center-Y,radius
-      // - poly: Every point in the polygon path as point-X,point-Y,...
-      coords: [
-        // array of number
-        50,
-        100,
-        150,
-        200
-      ],
-      // Target link for a click in the zone (note that if you provide a
-      // onClick prop, href will be prevented)
-      href: "" // string
+      _id: "s2-h1",
+      shape: "rect",
+      coords: [205, 359, 256, 407],
+      href: ""
+    },
+    {
+      _id: "s2-h2",
+      shape: "rect",
+      coords: [281, 347, 332, 397],
+      href: ""
+    },
+    {
+      _id: "s2-h3",
+      shape: "rect",
+      coords: [359, 347, 409, 397],
+      href: ""
+    },
+    {
+      _id: "s2-h4",
+      shape: "rect",
+      coords: [436, 359, 486, 407],
+      href: ""
+    },
+    {
+      _id: "s2-h5",
+      shape: "rect",
+      coords: [513, 347, 564, 397],
+      href: ""
+    },
+    {
+      _id: "s2-h6",
+      shape: "rect",
+      coords: [592, 347, 642, 397],
+      href: ""
+    },
+    {
+      _id: "s2-h7",
+      shape: "rect",
+      coords: [670, 347, 721, 397],
+      href: ""
+    },
+    {
+      _id: "s2-h8",
+      shape: "rect",
+      coords: [746, 359, 797, 407],
+      href: ""
+    },
+    {
+      _id: "s2-h9",
+      shape: "rect",
+      coords: [822, 347, 873, 397],
+      href: ""
+    },
+    {
+      _id: "s2-h10",
+      shape: "rect",
+      coords: [900, 347, 950, 397],
+      href: ""
+    },
+    {
+      _id: "s2-h11",
+      shape: "rect",
+      coords: [975, 347, 1026, 397],
+      href: ""
     }
   ]
 };
